@@ -1,0 +1,33 @@
+@mixin button($bg){
+ 	display:flex;
+	justify-content: center;
+	align-items:center;
+	color:white;	
+	border-style: solid;
+	border-width: 1px;
+	border-color: $bg;
+	background-color: $bg;
+	width: 180px;
+ 	height: 45px;
+ 	position: relative;
+	top: 0;
+	left: 0;
+	transition:all 0.5s ease 0s;
+	&:hover{
+		top: -5px;
+		box-shadow: 0 0 10px $bg; 
+	}		
+}
+@mixin textField{
+	border:1px solid #E5E5E5;
+	@include fontMul(normal,400);
+	color:$text;
+	padding-left: 10px;
+}
+@mixin bgImg($width,$height){
+	width: $width;	
+	height: $height;	
+	max-width: 100%;
+	object-fit:cover;
+	object-position:center;
+}

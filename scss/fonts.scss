@@ -1,0 +1,25 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,400;0,700;1,400&display=swap');
+@import 'color.scss';
+body{
+	font-family:Mulish;
+	font-weight:400;
+}
+h1,h2,h3{
+	font-family:Montserrat;
+	font-weight:600;
+	color:$black;
+}
+a{
+	text-decoration: none;
+}
+@mixin fontMul($style,$weight){
+	font-family:Mulish;
+	font-weight:$weight;
+	font-style:$style;
+}
+@mixin fontMont($style,$weight){
+	font-family:Montserrat;
+	font-weight:$weight;
+	font-style:$style;
+}
