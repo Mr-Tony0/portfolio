@@ -37,7 +37,7 @@ window.addEventListener('scroll',function(){
 		}
 	})
 	/*let positionNumber = document.querySelector('.purpleNumber').getBoundingClientRect().top;
-	if(//сделай нормальный счетчик цифр ленивая ты жопа){
+	if(//доделать){
 		changeNumber('purpleNumber',125);
 		changeNumber('yellowNumber',605);
 		changeNumber('redNumber',800);
